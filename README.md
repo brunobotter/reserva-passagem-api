@@ -56,126 +56,126 @@ E necessario inserir o usuario admin diretamente no banco de dados.
 
 ## Autorização
 
-### Post
-### http://localhost:8080/auth/login
-### Gera o token para para adicionar ao header
+ Post
+ http://localhost:8080/auth/login
+ Gera o token para para adicionar ao header
 
 ## Usuario
 
-### Get
-### http://localhost:8080/api/usuario/id
-### Role FUNCIONARIO ou ADMIN
-### Busca um usuario por id
+ Get
+ http://localhost:8080/api/usuario/id
+ Role FUNCIONARIO ou ADMIN
+ Busca um usuario por id
 
-### Get
-### http://localhost:8080/api/usuario
-### Role FUNCIONARIO ou ADMIN
-### Busca todos os usuario
+ Get
+ http://localhost:8080/api/usuario
+ Role FUNCIONARIO ou ADMIN
+ Busca todos os usuario
 
-### Delete
-### http://localhost:8080/api/usuario/id
-### Role ADMIN
-### Deleta um usuario por id
+ Delete
+ http://localhost:8080/api/usuario/id
+ Role ADMIN
+ Deleta um usuario por id
 
-### Post
-### http://localhost:8080/api/usuario/adicionar_cliente
-### Adiciona um usuario do tipo cliente
+ Post
+ http://localhost:8080/api/usuario/adicionar_cliente
+ Adiciona um usuario do tipo cliente
 
-### Post
-### http://localhost:8080/api/usuario/adicionar_funcionario
-### Role ADMIN
-### Adiciona um usuario do tipo Funcionario
+ Post
+ http://localhost:8080/api/usuario/adicionar_funcionario
+ Role ADMIN
+ Adiciona um usuario do tipo Funcionario
 
-### Put
-### http://localhost:8080/api/usuario/id
-### Role CLIENTE
-### Atualiza um usuario por id
+ Put
+ http://localhost:8080/api/usuario/id
+ Role CLIENTE
+ Atualiza um usuario por id
 
 ## Cidades
 
-### GET
-### http://localhost:8080/api/cidades/id
-### Role ADMIN ou FUNCIONARIO
-### Consulta uma cidade por id
+ GET
+ http://localhost:8080/api/cidades/id
+ Role ADMIN ou FUNCIONARIO
+ Consulta uma cidade por id
 
-### GET
-### http://localhost:8080/api/cidades/
-### Role ADMIN ou FUNCIONARIO
-### lista todas as cidades
+ GET
+ http://localhost:8080/api/cidades/
+ Role ADMIN ou FUNCIONARIO
+ lista todas as cidades
 
-### DELETE
-### http://localhost:8080/api/cidades/id
-### Role ADMIN
-### Deleta uma cidade
+ DELETE
+ http://localhost:8080/api/cidades/id
+ Role ADMIN
+ Deleta uma cidade
 
-### POST
-### http://localhost:8080/api/cidades/
-### Role ADMIN ou FUNCIONARIO
-### Adiciona uma cidade
+ POST
+ http://localhost:8080/api/cidades/
+ Role ADMIN ou FUNCIONARIO
+ Adiciona uma cidade
 
-### PUT
-### http://localhost:8080/api/cidades/id
-### Role ADMIN ou FUNCIONARIO
-### Atualiza uma cidade
+ PUT
+ http://localhost:8080/api/cidades/id
+ Role ADMIN ou FUNCIONARIO
+ Atualiza uma cidade
 
 ## Onibus
 
-### GET
-### http://localhost:8080/api/onibus/id
-### Role ADMIN ou FUNCIONARIO
-### Consulta um onibus por id
+ GET
+ http://localhost:8080/api/onibus/id
+ Role ADMIN ou FUNCIONARIO
+ Consulta um onibus por id
 
-### GET
-### http://localhost:8080/api/onibus/
-### Role ADMIN ou FUNCIONARIO
-### lista todos os onibus
+ GET
+ http://localhost:8080/api/onibus/
+ Role ADMIN ou FUNCIONARIO
+ lista todos os onibus
 
-### DELETE
-### http://localhost:8080/api/onibus/id
-### Role ADMIN 
-### Deleta um onibus por id
+ DELETE
+ http://localhost:8080/api/onibus/id
+ Role ADMIN 
+ Deleta um onibus por id
 
-### POST
-### http://localhost:8080/api/onibus/id
-### Role ADMIN ou FUNCIONARIO
-### Adiciona um onibus
+ POST
+ http://localhost:8080/api/onibus/id
+ Role ADMIN ou FUNCIONARIO
+ Adiciona um onibus
 
-### PUT
-### http://localhost:8080/api/onibus/id
-### Role ADMIN ou FUNCIONARIO
-### Atualiza um onibus por id
+ PUT
+ http://localhost:8080/api/onibus/id
+ Role ADMIN ou FUNCIONARIO
+ Atualiza um onibus por id
 
 ## Passagem
 
-### GET
-### http://localhost:8080/api/passagem/id
-### Consulta uma passsagem por id
+ GET
+ http://localhost:8080/api/passagem/id
+ Consulta uma passsagem por id
 
-### GET
-### http://localhost:8080/api/passagem/
-### Role ADMIN ou FUNCIONARIO
-### Lista todas as passagens
+ GET
+ http://localhost:8080/api/passagem/
+ Role ADMIN ou FUNCIONARIO
+ Lista todas as passagens
 
-### POST
-### http://localhost:8080/api/passagem/
-### Role CLIENTE
-### Reserva uma passagem
+ POST
+ http://localhost:8080/api/passagem/
+ Role CLIENTE
+ Reserva uma passagem
 
 ## Cancelamento
 
-### GET
-### http://localhost:8080/api/cancelamento/id
-### Consulta cancelamento por Id
+ GET
+ http://localhost:8080/api/cancelamento/id
+ Consulta cancelamento por Id
 
-### GET
-### http://localhost:8080/api/cancelamento/
-### Role ADMIN ou FUNCIONARIO
-### Lista todas os cancelamentos
+ GET
+ http://localhost:8080/api/cancelamento/
+ Role ADMIN ou FUNCIONARIO
+ Lista todas os cancelamentos
 
-### POST
-### http://localhost:8080/api/cancelamento/
-### Role ADMIN ou CLIENTE
-### Cancelar uma passagem
+ POST
+ http://localhost:8080/api/cancelamento/
+ Role ADMIN ou CLIENTE
+ Cancelar uma passagem
 
 
 
